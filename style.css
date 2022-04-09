@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: aliceblue;
+  margin: 0;
 }
 h1 {
   font-size: 3vw;
@@ -7,4 +9,53 @@ h1 {
 h1 span.name-heading {
   color: orange;
   font-size: 3vw;
+}
+section div.half-width {
+  width: 42%;
+  padding: 1%;
+  margin: 0 3%;
+  float: left;
+}
+.heading-h3 {
+  font-size: 4vh;
+}
+p span.highlight-span {
+  color: white;
+  font-size: 30px;
+  font-weight: 30px;
+  font-family: monospace, "Fira Code";
+  background-color: #0000ffa9;
+  font-style: italic;
+}
+.hire-me {
+  background-color: orange;
+  font-size: 3vw;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  margin-left: 20%;
+  cursor: pointer;
+  cursor: hand;
+}
+.hire-me:hover {
+  background-color: orange;
+  font-size: 3vw;
+  font-weight: bold;
+  font-family: monospace;
+  border: none;
+  border-radius: 30px;
+  padding: 0 10px;
+  transition: 5;
+}
+section div.half-width img {
+  width: 90%;
+  margin-left: 7%;
+}
+section.top-section {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+section {
+  height: 560px;
+  margin-bottom: 20px;
 }

@@ -1,23 +1,36 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: aliceblue;
+  /* background-color: #9e8cf2; */
   margin: 0;
 }
 h1 {
   font-size: 3vw;
 }
+.wellcome {
+  font-size: 4vw;
+  font-family: fantasy;
+
+  text-transform: uppercase;
+}
+h1 span.name-heading-last {
+  color: #fe3e89;
+}
 h1 span.name-heading {
   color: orange;
   font-size: 3vw;
 }
+p {
+  text-align: justify;
+}
 section div.half-width {
-  width: 42%;
+  width: 43%;
   padding: 1%;
-  margin: 0 3%;
+  margin: 2vw;
   float: left;
 }
 .heading-h3 {
-  font-size: 4vh;
+  font-size: 3vw;
+  color: #fea500;
 }
 p span.highlight-span {
   color: white;
@@ -26,36 +39,76 @@ p span.highlight-span {
   font-family: monospace, "Fira Code";
   background-color: #0000ffa9;
   font-style: italic;
+  border-radius: 10px;
 }
-.hire-me {
-  background-color: orange;
-  font-size: 3vw;
+.hire-me-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(45deg, #ff003c5b, #ff0062);
+  font-size: 2vw;
+  font-family: cursive;
   font-weight: bold;
-  border: none;
-  border-radius: 30px;
-  margin-left: 20%;
+  padding: 5px;
+  border-radius: 15px;
   cursor: pointer;
   cursor: hand;
 }
-.hire-me:hover {
-  background-color: orange;
-  font-size: 3vw;
+
+.hire-me-button:hover {
+  font-size: 2.1vw;
+  background-image: linear-gradient(45deg, #ff003c5b, #ff0062);
+  color: white;
+  text-justify: auto;
   font-weight: bold;
-  font-family: monospace;
-  border: none;
-  border-radius: 30px;
-  padding: 0 10px;
-  transition: 5;
+  border-radius: 15px;
+  padding: 5px;
+  transition: 500ms;
 }
 section div.half-width img {
   width: 90%;
-  margin-left: 7%;
+  margin-left: 7vw;
 }
 section.top-section {
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 20px;
+  min-height: 85vh;
+  max-height: fit-content;
 }
 section {
-  height: 560px;
-  margin-bottom: 20px;
+  padding: 1em;
+  background-color: #ffffff;
 }
+section.section-dream {
+  margin-top: 20px;
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+  background-position: top 30px right;
+  background-size: 100px;
+  min-height: 85vw;
+  max-height: fit-content;
+}
+h1.heading-3 {
+  color: #f78667;
+}
+h3.become-developer {
+  color: #33a4ef;
+  font-size: 5vh;
+  font-family: consolas;
+}
+p.big-dream-para {
+  color: gray;
+  font-family: Consolas, monaco, monospace;
+}
+.happy-programming {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #2bb4e7;
+  font-size: 1.5em;
+}
+/* section.section-dream div.half-width img {
+  width: 80%;
+  padding: 10vw;
+} */

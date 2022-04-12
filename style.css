@@ -6,7 +6,7 @@ body {
 h1 {
   font-size: 3vw;
 }
-.wellcome {
+.welcome {
   font-size: 4vw;
   font-family: fantasy;
 
@@ -22,10 +22,9 @@ h1 span.name-heading {
 p {
   text-align: justify;
 }
-section div.half-width {
-  width: 43%;
-  padding: 1%;
-  margin: 2vw;
+div.half-width {
+  width: 42%;
+  margin: 0 20px;
   float: left;
 }
 .heading-h3 {
@@ -41,7 +40,7 @@ p span.highlight-span {
   font-style: italic;
   border-radius: 10px;
 }
-.hire-me-button {
+.link-button {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -55,7 +54,7 @@ p span.highlight-span {
   cursor: hand;
 }
 
-.hire-me-button:hover {
+.link-button:hover {
   font-size: 2.1vw;
   background-image: linear-gradient(45deg, #ff003c5b, #ff0062);
   color: white;
@@ -79,18 +78,20 @@ section.top-section {
 }
 section {
   padding: 1em;
-  background-color: #ffffff;
+  background-color: linear-gradient(90deg, #0000ffa9, #6969ffa9);
+  min-height: 500px;
 }
 section.section-dream {
   margin-top: 20px;
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   /* background-size: 100%; */
-  background-position: top 30px right;
+  background-position: right;
   background-size: 100px;
-  min-height: 85vw;
+  min-height: 500px;
   max-height: fit-content;
 }
+
 h1.heading-3 {
   color: #f78667;
 }
@@ -103,12 +104,79 @@ p.big-dream-para {
   color: gray;
   font-family: Consolas, monaco, monospace;
 }
-.happy-programming {
-  font-family: "Source Sans Pro", sans-serif;
-  color: #2bb4e7;
-  font-size: 1.5em;
+.float-left a.link-button {
+  float: left;
+  font-size: 10px;
+  margin: 0 1%;
 }
-/* section.section-dream div.half-width img {
-  width: 80%;
-  padding: 10vw;
-} */
+section.section-dream {
+  margin-top: 30px;
+  height: 550px;
+}
+.experience-section {
+  justify-content: center;
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 90px;
+  height: 650px;
+}
+.experience-section div.half-width {
+  float: left;
+  height: 500px;
+  width: 40vw;
+  /* margin-left: 3vw; */
+  border-radius: 10px;
+}
+.box {
+  box-shadow: 5px 10px 30px rgb(160, 145, 145);
+}
+.pink-highlight {
+  color: #fea500;
+  font-size: larger;
+}
+.experience-heading {
+  margin-left: 30px;
+}
+p {
+  text-justify: auto;
+}
+#softwareEngineer {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, orange, red);
+  border-image-slice: 1;
+}
+#mernLearn {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightblue, blue);
+  border-image-slice: 1;
+}
+img#certificate {
+  object-fit: cover;
+  height: 50%;
+  width: 90%;
+  margin: 0 5px 5px 10px;
+  box-shadow: 10px 10px 40 red;
+}
+.pink-highlight a {
+  text-decoration: none;
+  color: #fba508;
+}
+li {
+  margin-bottom: 10px;
+  color: #3a587e;
+}
+footer {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+footer p {
+  position: relative;
+  bottom: 0px;
+  background-color: #d4cdcd;
+  text-align: center;
+  vertical-align: middle;
+}

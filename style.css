@@ -65,8 +65,8 @@ p span.highlight-span {
   transition: 500ms;
 }
 section div.half-width img {
-  width: 90%;
-  margin-left: 7vw;
+  width: 100%;
+  /* margin-left: 7vw; */
 }
 section.top-section {
   background-image: url("images/top-banner.png");
